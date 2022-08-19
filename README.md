@@ -1,20 +1,6 @@
 ## Car Website Backend System
 
 ****
-#### Running with Docker
+In this project, I'll use skills with Spring Boot, APIs, documentation and testing to implement a Vehicles API that serves as an endpoint to track vehicle inventory. While the primary Vehicles API will perform CRUD operations (Create, Read, Update and Delete) related to vehicle details like make, model, color, etc., it will need to consume data from other APIs as well regarding location and pricing data. I will implement a RESTful API for the Vehicles API, as well as converting a Pricing Service API to a microservice.
 
-To go straight to the **application**, use Docker.
-
-- ```docker-compose up -d```
-
-Application available addresses.
-- [Car Website API](http://localhost:8080/cars)
-- [Car API Documentation](http://localhost:8080/swagger-ui.html)
-- [Pricing API](http://localhost:8082/services/price?vehicleId=2)
-- [Maps API](http://localhost:9191/maps?lat=0&lon=0)
-- [Service Registry](http://localhost:8761)
-
-#### Useful links ###
-* [Car Website Backend System Udacity's skeleton repository.](https://github.com/udacity/JDND/tree/master/projects/P02-VehiclesAPI)
-* [Spring Boot RESTful API Documentation With Swagger 2.](https://dzone.com/articles/spring-boot-restful-api-documentation-with-swagger)
-
+By the end of this project, I'll have an application that can communicate with other services and be able to be viewed and used through Swagger-based API documentation.
